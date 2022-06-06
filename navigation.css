@@ -1,0 +1,44 @@
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(207, 174, 194, 0),rgba(228, 216, 235, 0)); 
+    width: 100%;
+    overflow: hidden;
+    border: 1p solid #555; 
+
+}
+.navbar li {
+        float: left;
+        text-align: center;
+        border-right: 1px solid rgb(255, 255, 255);
+    
+}
+.navbar li a {
+   display: block;
+   color: rgb(255, 255, 255);
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: large;
+   font-weight: bold;
+}
+.navbar li a:hover {
+    background-color: rgb(235, 185, 119);
+    color: black;
+
+
+}
+          
+/*The video background and the gradient background*/
+.pp{
+    background-image: url("https://media.giphy.com/media/9U9gK6Fx4whyw/giphy.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+} 
+.pp2{
+    background: linear-gradient(90deg, #8A1439 0%, #C64833 50%, #8A1439 100%);
+
+
+  }
